@@ -1,0 +1,4 @@
+tornado==4.5.2
+haversine==0.4.5
+pyserial==3.4
+PyYAML==3.12
