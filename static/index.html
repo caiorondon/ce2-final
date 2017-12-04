@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="{{ static_url("css/index.css") }}">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyAg_CXSxk3gESon1r-tLT8IIkUAVl2OV8E"></script>
+<script src="{{ static_url("js/gmaps.js") }}"></script>
+<script src="{{ static_url("js/index.js") }}"></script>
+</head>
+<body>
+
+<div class="flex-container">
+<header>
+  <h1>Simulador ADS-B</h1>
+</header>
+
+<nav class="nav">
+<ul>
+  <li><a href="#" class="set-location-a">Selecionar local do dispositivo</a></li>
+  <li><a href="#" class="start-path-a">Marcar inicio do trajeto</a></li>
+  <li><a href="#" class="end-path-a">Marcar fim do trajeto</a></li>
+  <li><a href="#" class="start-simulation-a">Iniciar simulacao</a></li>
+</ul>
+</nav>
+
+<article class="article">
+  <h1>Mapa (Google Maps)</h1>
+  <div id="gmaps"></div>
+</article>
+
+<footer>Criado por Caio Rondon Botelho de Carvalho</footer>
+</div>
+
+</body>
+</html>
