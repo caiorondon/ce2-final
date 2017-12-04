@@ -30,7 +30,7 @@ class MainHandler(tornado.web.RequestHandler):
 
         print("Received data! Encoding information...")
         encoded_msg = ADSBHandler.encode(args)
-        print(encoded_msg)
+        print(encoded_msg[:20] + "...")
 
         print("Decoding message...")
         decoded_msg = ADSBHandler.decode(encoded_msg)

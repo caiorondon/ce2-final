@@ -33,9 +33,27 @@ $(function() {
         map.drawCircle({
           lat: latlng.lat(),
           lng: latlng.lng(),
-          radius: 3000,
+          radius: 4000,
+          fillColor: 'green',
+          fillOpacity: 0.1,
+          strokeWeight: 0
+        });
+
+        map.drawCircle({
+          lat: latlng.lat(),
+          lng: latlng.lng(),
+          radius: 2000,
           fillColor: 'yellow',
           fillOpacity: 0.5,
+          strokeWeight: 0
+        });
+
+        map.drawCircle({
+          lat: latlng.lat(),
+          lng: latlng.lng(),
+          radius: 1000,
+          fillColor: 'red',
+          fillOpacity: 0.3,
           strokeWeight: 0
         });
 
